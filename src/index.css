@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Add to your global CSS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom border styles */
+.border-black {
+  border-width: 2px;
+}
+
+/* Custom hover effects */
+.hover-scale {
+  transition: transform 0.2s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.02);
+}
