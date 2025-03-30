@@ -4,7 +4,7 @@ export default function Projects(){
     return(
         <div className="border-2 border-black p-2 w-full md:w-170 h-82 flex flex-col justify-center items-center rounded-lg bg-[#F1EFEC]">
             <div className="flex-grow mt-4 mb-2 flex items-center justify-center">
-                <img src="public/profile.png" className="max-h-48 max-w-89 object-contain" />
+                <img src="./src/assets/profile.png" className="max-h-48 max-w-89 object-contain" />
             </div>
             <div className="text-center text-sm mb-1">
                 <h3 className="font-bold mb-0.3 text-[#123458]">CLARA</h3>
