@@ -10,10 +10,10 @@ import Hire from "../components/Hire";
 
 export default function Home(){
     return(
-        <div className="min-h-screen bg-[#D4C9BE]  flex flex-col items-center p-3 font-sans">
+        <div className="min-h-screen bg-[#F1EFEC] flex flex-col items-center p-3 font-sans">
             <div className="w-[90%] max-w-5xl gap-0.3">
                 <Header/>
-                <div className="grid grid-cols-3 gap-1 mt-2 min-h-[85vh]">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-1 mt-2 min-h-[85vh]">
                     <div className="flex flex-col gap-2.5">
                         <Description/>
                         <Projects/>
